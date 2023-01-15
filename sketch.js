@@ -14,7 +14,7 @@ function setup() {
   createCanvas(600, 600);
   var order = [];
   for (var i = 0; i < totalCities; i++) {
-    var v = createVector(random(width), random(height));
+    var v = createVector(random(width), random(height/2));
     cities[i] = v;
     order[i] = i;
   }
